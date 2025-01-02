@@ -51,7 +51,7 @@ export default function GridCards() {
 	];
 
 	return (
-		<section className="my-24 w-full min-h-screen">
+		<section className="my-24 w-full ">
 			<h1 className="max-w-[500px] text-5xl font-light leading-snug mb-20">
 				Strategic Solutions for Crypto/AI Businesses
 			</h1>

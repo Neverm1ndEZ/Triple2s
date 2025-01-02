@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 export default function Hero() {
 	return (
-		<section className="my-24 w-full min-h-screen">
+		<section className="my-24 w-full ">
 			<div className="flex items-center gap-x-20">
 				<h1 className="text-[5.5rem] max-w-[780px] text-left">
 					Crypto Marketing & SEO{" "}

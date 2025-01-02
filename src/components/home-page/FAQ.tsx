@@ -62,7 +62,7 @@ export function FAQAccordion() {
 	};
 
 	return (
-		<div className="my-24 w-full min-h-screen">
+		<div className="my-24 w-full ">
 			<h1 className="text-4xl text-center font-bold text-white mb-8">
 				FAQ&apos;s
 			</h1>

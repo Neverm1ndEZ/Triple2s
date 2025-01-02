@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Blog() {
 	return (
-		<section className="my-24 w-full min-h-screen">
+		<section className="my-24 w-full ">
 			<h1 className="text-[3.5rem] max-w-[630px] leading-tight mb-14">
 				Explore Our Blog Your Source for SEO Brilliance
 			</h1>

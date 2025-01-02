@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Info() {
 	return (
-		<section className="my-24 w-full min-h-screen">
+		<section className="my-24 w-full ">
 			<h1 className="text-[5.5rem] max-w-[830px] leading-tight mb-14">
 				Why Choose Triple2s as your SEO Agency?
 			</h1>

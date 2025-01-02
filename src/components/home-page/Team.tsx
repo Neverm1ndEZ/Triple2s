@@ -62,7 +62,7 @@ export default function Team() {
 	];
 
 	return (
-		<section className="my-24 w-full min-h-screen">
+		<section className="my-24 w-full ">
 			<div className="grid grid-cols-4 gap-4 mb-36">
 				{teamData.map((member) => (
 					<div
