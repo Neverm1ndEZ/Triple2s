@@ -40,13 +40,13 @@ const Footer = () => {
 
 	return (
 		<footer className="w-full bg-black text-white py-16">
-			<div className="flex items-center justify-between w-full border-b border-[#FFFFFF2D] pb-20">
+			<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-y-10 w-full border-b border-[#FFFFFF2D] pb-20">
 				<h1 className="capitalize text-4xl font-bold">
 					Let&apos;s create something great
 				</h1>
 				<GradientBorderButton>Get in Touch</GradientBorderButton>
 			</div>
-			<div className="my-20 flex justify-between items-center">
+			<div className="my-20 flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-10">
 				<div className="space-y-6">
 					<Link href="/" className="inline-block">
 						<Image
@@ -71,7 +71,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div>
-					<div className="grid grid-cols-2 gap-x-16 gap-y-4 text-right">
+					<div className="grid grid-cols-2 gap-x-16 gap-y-4 lg:text-right">
 						{/* Primary Navigation Links */}
 						<nav className="flex flex-col space-y-4">
 							{navigationLinks.primary.map((link) => (
@@ -100,7 +100,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex items-center justify-between w-full">
+			<div className="flex flex-col lg:flex-row items-center justify-between w-full">
 				<address className="text-gray-400 not-italic">
 					375 University Ave #102, Toronto, ON M5G 2J5, Canada
 				</address>

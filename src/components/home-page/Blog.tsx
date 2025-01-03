@@ -4,16 +4,17 @@ import React from "react";
 export default function Blog() {
 	return (
 		<section className="my-24 w-full ">
-			<h1 className="text-[3.5rem] max-w-[630px] leading-tight mb-14">
+			<h1 className="text-3xl lg:text-[3.5rem] max-w-[630px] leading-tight mb-14">
 				Explore Our Blog Your Source for SEO Brilliance
 			</h1>
-			<div className="flex justify-center items-center gap-5 w-full">
-				<div className="w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
+			<div className="flex flex-col lg:flex-row justify-center items-center gap-5 w-full">
+				<div className="lg:w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
 					<Image
 						src="/blog/blogone.svg"
 						alt="blog image"
 						width={500}
 						height={550}
+						className="max-w-[400px] mx-auto rounded-xl"
 					/>
 					<div className="flex w-full justify-end items-end gap-5">
 						<h1 className="text-3xl font-bold w-full">
@@ -31,7 +32,7 @@ export default function Blog() {
 				</div>
 				<div className="space-y-6">
 					<div className="flex">
-						<div className="w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
+						<div className="lg:w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
 							<Image
 								src="/blog/blogtwo.svg"
 								alt="blog image"
@@ -54,7 +55,7 @@ export default function Blog() {
 						</div>
 					</div>
 					<div className="flex">
-						<div className="w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
+						<div className="lg:w-[36rem] rounded-3xl bg-[#18181899] backdrop-blur-3xl p-8 flex flex-col items-start justify-end gap-y-8">
 							<Image
 								src="/blog/blogthree.svg"
 								alt="blog image"

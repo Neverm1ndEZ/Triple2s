@@ -68,7 +68,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${gilroy.variable} ${psygen.variable} ${gildDisplay.variable} antialiased font-gilroy bg-[#000] text-white max-w-6xl mx-auto`}
+				className={`${gilroy.variable} ${psygen.variable} ${gildDisplay.variable} antialiased font-gilroy bg-[#000] text-white max-w-6xl mx-auto p-8 lg:p-0`}
 			>
 				<Navbar />
 				{children}

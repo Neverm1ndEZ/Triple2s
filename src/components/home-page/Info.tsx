@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Info() {
 	return (
-		<section className="my-24 w-full ">
-			<h1 className="text-[5.5rem] max-w-[830px] leading-tight mb-14">
+		<section className="my-12 lg:my-24 w-full">
+			<h1 className="text-3xl lg:text-[5.5rem] max-w-[330px] lg:max-w-[830px] leading-tight mb-14">
 				Why Choose Triple2s as your SEO Agency?
 			</h1>
 			<div className="mb-20">
-				<div className="flex justify-evenly w-full gap-4">
+				<div className="flex flex-col lg:flex-row justify-center items-center lg:items- lg:justify-evenly w-full gap-4">
 					<div className="w-[20rem] grid place-items-center px-8 py-10 rounded-3xl bg-[#18181899]">
 						<h1 className="font-gilroy text-6xl">
 							93 <span className="text-3xl">%</span>
@@ -42,13 +42,13 @@ export default function Info() {
 					thrives online.
 				</p>
 			</div>
-			<div className="mt-24 mb-40">
-				<h1 className="text-[5.5rem] max-w-[730px] leading-tight mb-14">
+			<div className="my-12 lg:my-24 w-full lg:mb-40">
+				<h1 className="text-3xl lg:text-[5.5rem] lg:max-w-[730px] leading-tight mb-14">
 					Instantly Boost Your Digital Footprint
 				</h1>
-				<div className="flex flex-row-reverse justify-between w-full">
+				<div className="flex flex-col gap-y-10 lg:flex-row-reverse justify-between w-full">
 					<div className="space-y-10">
-						<div className="flex gap-10">
+						<div className="flex flex-col justify-center items-center lg:items- lg:justify-normal lg:flex-row gap-10">
 							<div className="w-[20rem] grid place-items-center px-8 py-10 rounded-3xl bg-[#18181899]">
 								<h1 className="font-gilroy text-6xl">
 									93 <span className="text-3xl">%</span>
