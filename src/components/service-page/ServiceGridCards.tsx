@@ -2,7 +2,7 @@
 // import Image from "next/image";
 // import React, { useRef, useState, useEffect } from "react";
 
-// export default function GridCards() {
+// export default function ServiceGridCards() {
 // 	// State for tracking current card and touch interactions
 // 	const scrollContainerRef = useRef<HTMLDivElement>(null);
 // 	const [currentCard, setCurrentCard] = useState(0);
@@ -14,47 +14,47 @@
 // 	const cardData = [
 // 		{
 // 			id: 1,
-// 			title: "SEO Optimization",
+// 			title: "Keyword Research & Strategy",
 // 			desc: "Enhance your website's visibility and ranking with expert SEO strategies.",
 // 		},
 // 		{
 // 			id: 2,
-// 			title: "Social Media",
+// 			title: "Keyword Clustering & Pillar Pages",
 // 			desc: "Elevate your brand and engage your audience with expert Social Media strategies.",
 // 		},
 // 		{
 // 			id: 3,
-// 			title: "Crypto & Gaming PPC",
+// 			title: "Content Calendar & Planning",
 // 			desc: "We specialize in online gaming and crypto PPC campaigns.",
 // 		},
 // 		{
 // 			id: 4,
-// 			title: "Paid Advertising",
+// 			title: "On-Page SEO Optimization",
 // 			desc: "Maximize your ROI with targeted ad campaigns on top digital platforms.",
 // 		},
 // 		{
 // 			id: 5,
-// 			title: "Brand Monitoring",
+// 			title: "Technical SEO Audits",
 // 			desc: "Stay ahead with real-time insights through our comprehensive Brand Monitoring.",
 // 		},
 // 		{
 // 			id: 6,
-// 			title: "Social Media Marketing",
+// 			title: "Mobile SEO Opt & AMP",
 // 			desc: "Grow your brand's presence with strategic social media campaigns.",
 // 		},
 // 		{
 // 			id: 7,
-// 			title: "Paid Advertising",
+// 			title: "Content Creation & Optimization",
 // 			desc: "Maximize your ROI with targeted ad campaigns on top digital platforms.",
 // 		},
 // 		{
 // 			id: 8,
-// 			title: "Brand Monitoring",
+// 			title: "Local SEO Optimization",
 // 			desc: "Stay ahead with real-time insights through our comprehensive Brand Monitoring.",
 // 		},
 // 		{
 // 			id: 9,
-// 			title: "Mobile App Development",
+// 			title: "SEO Analytics, Monitoring & Reporting",
 // 			desc: "Create custom mobile apps with seamless functionality for all devices.",
 // 		},
 // 	];
@@ -126,7 +126,7 @@
 // 	return (
 // 		<section className="my-12 lg:my-24 w-full overflow-hidden">
 // 			<h1 className="lg:max-w-[500px] text-3xl lg:text-5xl font-light leading-snug mb-20 text-center lg:text-left">
-// 				Strategic Solutions for Crypto/AI Businesses
+// 				Why Triple2s is the bestSEO Company in Toronto?
 // 			</h1>
 
 // 			{/* Conditional rendering based on screen size */}
@@ -185,7 +185,7 @@
 // 					{cardData.map((card) => (
 // 						<div
 // 							key={card.id}
-// 							className="flex flex-col gap-y-3 p-12 rounded-3xl bg-[#18181899] backdrop-filter backdrop-blur-xl bg-opacity-60"
+// 							className="flex flex-col gap-y-3 p-12 rounded-3xl bg-[#18181899] backdrop-filter backdrop-blur-xl bg-opacity-60 cursor-pointer"
 // 						>
 // 							<h2 className="text-white text-2xl font-bold">{card.title}</h2>
 // 							<p className="text-lg text-gray-300">{card.desc}</p>
@@ -193,26 +193,11 @@
 // 					))}
 // 				</div>
 // 			)}
-
-// 			{/* CTA Section */}
-// 			<div className="flex flex-col lg:flex-row items-center justify-center w-full gap-6 lg:gap-10 mb-32 px-4 mt-16">
-// 				<h1 className="text-3xl lg:text-5xl font-light leading-normal text-center lg:text-left">
-// 					Need custom service that aligns your business objectives? Get a quote.
-// 				</h1>
-// 				<button className="border border-white rounded-full p-8 lg:p-10 hover:scale-110 transition duration-200 ease-in-out">
-// 					<Image
-// 						src="/tilted-arrow.svg"
-// 						alt="arrow"
-// 						width={40}
-// 						height={40}
-// 						className="lg:w-[50px] lg:h-[50px]"
-// 					/>
-// 				</button>
-// 			</div>
 // 		</section>
 // 	);
 // }
 
+// GridCards.tsx / ServiceGridCards.tsx
 "use client";
 import Image from "next/image";
 import React, { useRef, useState, useEffect } from "react";
@@ -229,47 +214,47 @@ export default function GridCards() {
 	const cardData = [
 		{
 			id: 1,
-			title: "SEO Optimization",
+			title: "Keyword Research & Strategy",
 			desc: "Enhance your website's visibility and ranking with expert SEO strategies.",
 		},
 		{
 			id: 2,
-			title: "Social Media",
+			title: "Keyword Clustering & Pillar Pages",
 			desc: "Elevate your brand and engage your audience with expert Social Media strategies.",
 		},
 		{
 			id: 3,
-			title: "Crypto & Gaming PPC",
+			title: "Content Calendar & Planning",
 			desc: "We specialize in online gaming and crypto PPC campaigns.",
 		},
 		{
 			id: 4,
-			title: "Paid Advertising",
+			title: "On-Page SEO Optimization",
 			desc: "Maximize your ROI with targeted ad campaigns on top digital platforms.",
 		},
 		{
 			id: 5,
-			title: "Brand Monitoring",
+			title: "Technical SEO Audits",
 			desc: "Stay ahead with real-time insights through our comprehensive Brand Monitoring.",
 		},
 		{
 			id: 6,
-			title: "Social Media Marketing",
+			title: "Mobile SEO Opt & AMP",
 			desc: "Grow your brand's presence with strategic social media campaigns.",
 		},
 		{
 			id: 7,
-			title: "Paid Advertising",
+			title: "Content Creation & Optimization",
 			desc: "Maximize your ROI with targeted ad campaigns on top digital platforms.",
 		},
 		{
 			id: 8,
-			title: "Brand Monitoring",
+			title: "Local SEO Optimization",
 			desc: "Stay ahead with real-time insights through our comprehensive Brand Monitoring.",
 		},
 		{
 			id: 9,
-			title: "Mobile App Development",
+			title: "SEO Analytics, Monitoring & Reporting",
 			desc: "Create custom mobile apps with seamless functionality for all devices.",
 		},
 	];

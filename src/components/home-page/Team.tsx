@@ -69,13 +69,13 @@ export default function Team() {
 						key={member.id}
 						className="grid gap-y-10 px-6 py-10 rounded-3xl bg-[#18181899] backdrop-blur-3xl"
 					>
-						<div>
+						<div className="relative w-full aspect-square">
 							<Image
 								src={member.image}
-								width={600}
-								height={600}
 								alt={`Team ${member.id}`}
-								className="rounded-xl max-w-[400px] mx-auto"
+								fill
+								className="object-cover rounded-xl"
+								sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
 							/>
 						</div>
 						<div className="space-y-2">

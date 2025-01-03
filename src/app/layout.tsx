@@ -1,9 +1,9 @@
+import Footer from "@/components/Footer";
+import NavigationWrapper from "@/components/NavigationWrapper";
 import type { Metadata } from "next";
 import { Gilda_Display } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const gildDisplay = Gilda_Display({
 	subsets: ["latin"],
@@ -70,7 +70,7 @@ export default function RootLayout({
 			<body
 				className={`${gilroy.variable} ${psygen.variable} ${gildDisplay.variable} antialiased font-gilroy bg-[#000] text-white max-w-6xl mx-auto p-8 lg:p-0`}
 			>
-				<Navbar />
+				<NavigationWrapper />
 				{children}
 				<Footer />
 			</body>
